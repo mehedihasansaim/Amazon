@@ -1,0 +1,287 @@
+/* prothom ei all select kore margin 0px set kore newa beeter practice */
+*{
+    margin: 0;
+    font-family: Arial;
+    /* border-box use korle, border count hobe content er height and width er vitor theke  */
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    /* display flex use kore ak e div er vitorer sobgula element that means  jodi ek ta div er vitore akadik div thake aro tokhn tader k ek e line ana hoy. */
+    display: flex;
+    /* navbar dive er vitore jotogula aro div or content use korbo sobgula navbar div er center e chole asbe */
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+/* .nav-logo and .logo class e ami jotokkhn heiht , width and background size add  na kortesilam totokkhn amazon logo show hossilo na....tai dive show korate chaile div er content must dite hobe...  */
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+
+
+/* box2 */
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+.nav-src{
+    display: flex;
+    /* justify content use kore nav-src er vitorer content or div gula equal space nibe..width baraile 2 side theke equal vabe barbe */
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.serch-select{
+    background-color: #E6E6E6;
+    width: 50px;
+    text-align: center;
+    /* sudu left side jehetu round kora dorkar tai top-left-redius use korsi */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.src-input {
+    /* 100% : nav-src div er vitore 3 ta content ace, jokhn src-input er width 100% kore dibo tokhn baki 2 ta content er space bad e nav-src div er 100% space src-input niye nibe */
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    /* search-icon hosse parant class tai direct search-icon class e align-items: center dile icon center e jabe na....center e newar jonno horizontaly and vertically align korte hobe...er age display flex kore nite hobe... horizontally align korar jonno justufy-content center dite hobe then vertically center korar jonno align items cernter korlei done */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+.nav-src:hover {
+    border: 2px solid rgb(255, 187, 0);
+}
+
+
+/* box4 */
+span {
+    font-size: 0.7rem;
+}
+
+.nav-sec {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box6 */
+.nav-cart i {
+    font-size: 25px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel-option {
+    display: flex;
+}
+
+/* panel-------------------------------- */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+
+.panel-option{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-option p{
+    margin: 15px;
+}
+.panel-deals{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+/* hero section -------------- */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 300px;
+
+    /* hero msg dive k hero section div er majamaji and bottom e newar jonno */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    
+    /* for hero msg position and size */
+    width: 80%;
+    margin-bottom: 25px;
+   
+}
+.hero-msg a{
+    color: #007185;
+}
+
+/* shop section ---------------------------------- */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(186, 210, 202);
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    font-size: 0.85rem;
+    color: #007185;
+}
+
+.box-image{
+    /* background-image: url("box1_image.jpg"); */
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-size: cover;
+    
+}
+
+/* footer ----------------------- */
+
+footer{
+    margin-top: 15px;
+    
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 30px;
+}
+ul p{
+    font-weight: 700;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    border-top: 0.3px solid #dddddd;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4{
+    background-color: #1c2732;
+    color: rgba(237, 237, 237, 0.872);
+    font-size: 0.75rem;
+    height: 80px;
+    padding-top: 40px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.pages{
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+}
